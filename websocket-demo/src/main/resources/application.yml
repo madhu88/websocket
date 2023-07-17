@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: websocket-demo
+
+info:
+  build:
+    version: "@project.version@"
+    projectName: "@project.artifactId@"
+
+server:
+  servlet:
+    context-path: /websocket
+  port: 9000
